@@ -86,3 +86,62 @@ job:
   3. PWA·소셜 로그인·멀티 푸시 알림 통합 구현 경험
   4. 산출물 완성도 1순위 대응 — 명세 고도화 → 마일스톤 검수 → 모바일 인터랙션 QA 단계별 품질 게이트
 - **기술 스택 선택 이유 (공고 요구)**: Next.js(PWA·SSR), react-konva(좌표 캔버스 인터랙션 최적), NestJS+PostgreSQL(구조화 API·확장성), Sendbird(채팅 직접 구현 리스크 제거)
+
+## 6. 최종 산출물 (8단계 출력 전문)
+
+### 6.1 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-kpop-photocard-visual-tagging-pwa/
+
+### 6.2 지원 금액
+9,000,000원 (VAT 별도) — 클라이언트 예상 10,000,000원의 90% 고정 규칙
+
+### 6.3 지원 기간
+45일 — 내부 산정(약 46일) ≈ 클라이언트 예상(45일) 일치
+
+### 6.4 클라이언트 질문 답변
+별도 클라이언트 질문 항목 없음 (해당 없음)
+
+### 6.5 지원 내용 (전체)
+
+안녕하세요, K-POP 포토카드 비주얼 태깅 거래 플랫폼 MVP 개발 (PWA) 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-kpop-photocard-visual-tagging-pwa/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 포토카드 셀러가 이미지 위에 직접 가격·라벨을 태그하고, 구매자는 탭 한 번으로 채팅 거래를 시작하는 C2C 비주얼 태깅 거래 환경을 모바일 PWA로 구축.
+- 핵심·우대 요건 "이미지 위 좌표 기반 인터랙션(드래그·핀·에디터)"을 캔버스 인터랙티브 플랫폼 직접 구현 경험으로 해결.
+- 채팅은 공고 권장대로 검증된 Sendbird SDK 활용으로 안정성·일정 리스크 최소화.
+- 디자인(Figma 제공)·자체 결제 제외 반영하여 SW 개발 집중.
+
+■ 작업 일정 (총 45일)
+[Phase 1] 기획·설계 (Day 1–7)
+[Phase 2] 회원·기반·PWA 셋업 (Day 8–16)
+[Phase 3] 비주얼 태깅 에디터 — 핵심 (Day 17–28)
+[Phase 4] 탐색·구매·채팅·거래 상태 (Day 29–38)
+[Phase 5] QA·안정화·배포 (Day 39–45)
+
+■ 마일스톤 및 산출물
+- M1(Day 7) 설계 / M2(Day 16) 회원·PWA / M3(Day 28) 태깅 에디터 / M4(Day 38) 탐색·채팅·거래 / M5(Day 45) 최종 납품
+- 산출물: 소스 전체, API 명세서, DB 스키마, 배포 가이드, 1개월 무상 하자 보수
+
+■ 미팅 시 협의 필요 사항
+- 상세 기획서·Figma 원본 공유(NDA 후), Sendbird 요금제/운영 주체, 소셜 로그인 비즈 인증 정보, 이미지 스토리지 환경·비용 부담, 월 단위 유지보수 범위
+
+<유사 프로젝트 진행 경험>
+- 인터랙티브 캔버스 웹앱(게임 엔진): 좌표 기반 캔버스 인터랙션 직접 구현 / Phaser.js·React·NestJS
+- 디지털 명함 네트워킹 매칭 플랫폼: C2C 매칭·1:1 실시간 채팅 / Flutter·Next.js·Express·PostgreSQL
+- 소셜 캘린더 공유 모바일 앱: 소셜 로그인·찜·7종 푸시·채팅 / Flutter·Firebase·FCM
+
+<사용 기술과 툴>
+- FE(PWA): Next.js·React·TypeScript·Tailwind·react-konva
+- BE: NestJS·PostgreSQL / 외부 연동: Sendbird·소셜 로그인·Web Push / 인프라: AWS·Docker
+- 스택 이유: PWA/SSR(Next.js), 좌표 캔버스 최적(react-konva), 구조화·확장성(NestJS), 채팅 리스크 제거(Sendbird)
+
+### 6.6 관련 포트폴리오 추천
+1. 인터랙티브 캔버스 웹앱 (게임 엔진 기반) — 좌표 기반 캔버스 인터랙션 직접 구현 (우대 요건)
+2. 디지털 명함 & 네트워킹 매칭 플랫폼 — C2C 매칭 + 1:1 실시간 채팅
+3. 소셜 캘린더 공유 모바일 앱 — 소셜 로그인 + 찜/좋아요 + 7종 푸시 + 채팅
