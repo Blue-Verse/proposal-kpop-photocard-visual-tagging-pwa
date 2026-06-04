@@ -134,10 +134,10 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-kpop-photocard-visual
 - 상세 기획서·Figma 원본 공유(NDA 후), Sendbird 요금제/운영 주체, 소셜 로그인 비즈 인증 정보, 이미지 스토리지 환경·비용 부담, 월 단위 유지보수 범위
 
 <유사 프로젝트 진행 경험>
-- 인터랙티브 캔버스 웹앱(게임 엔진): 좌표 기반 캔버스 인터랙션 직접 구현 / Phaser.js·React·NestJS
-- 디지털 명함 네트워킹 매칭 플랫폼: C2C 매칭·1:1 실시간 채팅 / Flutter·Next.js·Express·PostgreSQL
-- B2C 라이프스타일 모바일 앱: 소셜 로그인(SSO)·포인트 리워드·약 3개월 단독 빠른 딜리버리 / Flutter·Firebase·Node.js
-- 디지털 자산 거래 마켓플레이스: listing 등록·거래·거래 상태 관리·정산·어드민 / React·Next.js·Express·PostgreSQL
+- 인터랙티브 캔버스 웹앱(게임 엔진): 좌표 기반 캔버스 인터랙션 직접 구현 (우대 요건) / Phaser.js·React·NestJS
+- 디지털 자산 거래 마켓플레이스: C2C 판매글 listing 등록·거래·거래 상태(판매중/협의중/판매완료) 관리·정산·어드민 / React·Next.js·Express·PostgreSQL
+- 디지털 명함 네트워킹 매칭 플랫폼: 판매자–구매자 C2C 매칭·프로필·1:1 실시간 채팅 진입 / Flutter·Next.js·Express·PostgreSQL
+- B2C 라이프스타일 모바일 앱: 소셜 로그인(SSO)·포인트 리워드·약 3개월 단독 빠른 딜리버리(일정 준수) / Flutter·Firebase·Node.js
 
 <사용 기술과 툴>
 - FE(PWA): Next.js·React·TypeScript·Tailwind·react-konva
@@ -146,6 +146,6 @@ https://proposal-router.claude-ai-b27.workers.dev/proposal-kpop-photocard-visual
 
 ### 6.6 관련 포트폴리오 추천
 1. 인터랙티브 캔버스 웹앱 (게임 엔진 기반) — 좌표 기반 캔버스 인터랙션 직접 구현 (우대 요건)
-2. 디지털 명함 & 네트워킹 매칭 플랫폼 — C2C 매칭 + 1:1 실시간 채팅
-3. B2C 라이프스타일 모바일 앱 — 소셜 로그인(SSO) + 포인트 리워드 + 약 3개월 빠른 딜리버리
-4. 디지털 자산 거래 마켓플레이스 — listing 등록·거래·거래 상태 관리·정산·어드민 (C2C 거래 구조 직접 유사)
+2. 디지털 자산 거래 마켓플레이스 — listing 등록·거래·거래 상태 관리·정산·어드민 (C2C 거래 구조 직접 유사)
+3. 디지털 명함 & 네트워킹 매칭 플랫폼 — C2C 매칭 + 1:1 실시간 채팅
+4. B2C 라이프스타일 모바일 앱 — 소셜 로그인(SSO) + 포인트 리워드 + 약 3개월 빠른 딜리버리
